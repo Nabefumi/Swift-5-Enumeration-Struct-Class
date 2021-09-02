@@ -70,3 +70,19 @@ generateList.append(test10)
 var classroom = Classroom()
 classroom.arrayOfStudents = generateList
 classroom.getHighestGpa()
+
+// - Define a struct classed Student. Each student is defined by the following attributes:
+// o firstName
+// o lastName
+// o address
+// o Year of birth
+// o gpa
+// - Define a class called Classroom with an instance property which is an array of Students.
+// - Define a static method called printStudent for the struct Student to print the student’s
+// information (firstName, lastName, address, year of birth and gpa)
+// - Define an instance method for the class Classroom, called generateList. This method
+// create 10 instances of the class students with some arbitrary information and add them to
+// the list of students.
+// - Define an instance method for the class Classroom, called getHighestGpa. This methods
+// will search into the array of Students and returns the student with the highest GPA. The
+// method also prints the information of the student with the highest GPA.
