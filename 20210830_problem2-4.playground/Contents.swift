@@ -30,3 +30,12 @@ var search = Search()
 search.randomFill()
 print(search.arr)
 print(Search.linearSearch(of: search.arr, 5))
+
+// - Create a class called Search which has an array of numbers as its instance variable.
+// - Create an instance method for this class called, reset which create an empty array and
+// return void.
+// - Create an instance method for this class called randomFill which generates 10 random
+// Integer and add them to the array of numbers and returns void (which is the instance
+// variable of the class).
+// - Create a static method called linearSearch which takes a list of Integer and a number. It
+// check whether the number exist in the list of not.
