@@ -76,3 +76,9 @@ averagePoint.printPoint(pt: averagePoint)
 // returns it. Similarly if the input character is ‘y’ then it calculates the average of y
 // coordination of the input points. If the character is not ‘x’ or ‘y’ then the function
 // returns nil.
+// o Define another static method called vectorAverage which takes an array of points.
+// The method then calculates the average x and average y using the average
+// function you defined above and create another point whose x is equal to average x
+// and y is equal to average y and returns the resulting point.
+// o Then use the printPoint method to print the resulting point from previous question
+// (average point).
